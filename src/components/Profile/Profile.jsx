@@ -1,4 +1,4 @@
-import css from './Profile.module.css'; // імпорт CSS-модулів
+import css from './Profile.module.css'; 
 
 const Profile = ({ name, tag, location, image, stats }) => (
     <div className={css.profile}>

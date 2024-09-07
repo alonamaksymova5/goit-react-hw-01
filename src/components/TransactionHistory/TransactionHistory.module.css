@@ -7,15 +7,13 @@
 }
 
 .thead {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
-    font-weight: bold;
 }
 
 .thead th {
     padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
+    text-align: center;
 }
 
 tbody tr {
@@ -27,13 +25,12 @@ tbody tr {
 }
 
 .tbodyRow:nth-child(even) {
-    background-color: #f2f2f2;
-    /* Сірий колір для кожного другого рядка */
+    background-color: gainsboro;
 }
 
 td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
+    text-align: center;
+    border: 2px solid black;
 }
+
 
